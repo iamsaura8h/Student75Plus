@@ -13,14 +13,14 @@ function LandingPage() {
   return (
     <div>
       <div className="relative inline-block">
-        <img src="public/images/44.png" alt="Example Image"/>
+        <img src="/images/44.png" alt="Example Image"/>
         <button 
           className="absolute button-style" 
           onClick={scrollToCalculator}
         >
           Try now 
         </button>
-        <img src="public/images/22.png" alt=""/>
+        <img src="/images/22.png" alt=""/>
       </div>
       
       <div id="attendance-calculator">
